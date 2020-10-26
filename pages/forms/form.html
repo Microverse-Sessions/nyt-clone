@@ -8,19 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form type="submit">
         <div class="fields">
-            <label>Name</label>
-            <input type="text">
+            <label for="username">User Name</label>
+            <input type="text" name="username">
         </div>
         <div class="fields">
-            <label>email</label>
-            <input type="text">
+            <label for="email">email</label>
+            <input type="text" name="email">
         </div>
         <div class="fields">
-            <label>Comment</label>
-            <input type="text">
+            <label for="comments">Comment</label>
+            <input type="text" name="comments">
         </div>
+        <div class="fields">
+            <span>What is your overall opinion about this article?</span>
+            <input type="radio" name="positive">
+            <input type="radio" name="negative">
+            <input type="radio" name="neutral">
+        </div>
+
+    
     </form>
 </body>
 </html>
