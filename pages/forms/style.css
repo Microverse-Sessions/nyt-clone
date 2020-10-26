@@ -1,3 +1,16 @@
 body {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-family: 'Avro';
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+}
+
+.fields {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
