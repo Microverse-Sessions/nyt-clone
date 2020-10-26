@@ -5,16 +5,10 @@ body {
     font-family: 'Avro';
     display: flex;
     flex-direction: column;
-    /* align-self: center;
-    align-content: center; */
 }
 
 .fields {
     margin-bottom: 25px;
     display: flex;
     flex-direction: column;
-}
-
-{
-
 }
