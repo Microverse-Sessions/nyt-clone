@@ -13,30 +13,31 @@
     <form>
         <h1>Feedback</h1>
         <div class="fields">
-            <!-- <label for="username">User Name</label> -->
-            <input type="text" id="username" name="username" placeholder="username" required>
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" placeholder="username" maxlength="20" required>
         </div>
         <div class="fields">
-            <!-- <label for="email">email</label> -->
-            <input type="email" id="email" name="email" placeholder="email" required>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" placeholder="email" maxlength="20" required>
         </div>
         <div class="fields">
-            <!-- <label for="comments">Comment</label> -->
-            <input type="text" id="comments" name="comments" placeholder="comments" required>
+            <label for="comments">Comments</label>
+            <textarea id="comments" placeholder="comments" maxlength="500" required>
+            </textarea>
         </div>
         <div>
             <span>What is your overall opinion about this article?</span>
             <ul>
                 <li>
-                    <input type="radio" id="positive" name="feedback" maxlength="20">
+                    <input type="radio" id="positive" name="feedback">
                     <label for="positive">Positive</label>
                 </li>
                 <li>
-                    <input type="radio" id="negative" name="feedback" maxlength="20">
+                    <input type="radio" id="negative" name="feedback">
                     <label for="negative">Negatiive</label>
                 </li>
                 <li>
-                    <input type="radio" id="neutral" name="feedback" maxlength="500">
+                    <input type="radio" id="neutral" name="feedback">
                     <label for="neutral">Neutral</label>
                 </li>
             </ul>
