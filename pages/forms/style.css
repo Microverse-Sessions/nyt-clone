@@ -7,7 +7,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Avro', Verdana, Geneva, Tahoma, sans-serif;
-  color: #333333;
+  color: #333;
   display: flex;
   flex-direction: column;
 }
@@ -15,8 +15,9 @@ body {
 form {
   background-color: lightgray;
   padding: 11%;
+
   /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
-  box-shadow: 0 0 20px 0 #333333, 0 5px 5px 0 #333333;
+  box-shadow: 0 0 20px 0 #333, 0 5px 5px 0 #333;
 }
 
 .fields {
@@ -33,8 +34,8 @@ form {
   font-size: 13px;
 }
 
-.fields #comments{
-    height: 150px;
+.fields #comments {
+  height: 150px;
 }
 
 button {
@@ -57,5 +58,5 @@ li {
 }
 
 li label {
-    padding-left: 25px;
+  padding-left: 25px;
 }
