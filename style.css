@@ -162,6 +162,16 @@ button:hover {
   margin-right: 8px;
 }
 
+.feedback-button {
+  background-color: #557b92;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
 figure {
   display: block;
   margin-top: 1em;
