@@ -162,10 +162,6 @@ button:hover {
   margin-right: 10px;
 }
 
-.feedback a:hover {
-  filter: drop-shadow(0 0 10px #29b3e6);
-}
-
 .comment-button {
   background-color: #557b92;
   border: none;
@@ -410,4 +406,8 @@ img {
 
 .most-pop-titles:hover {
   text-decoration: underline;
+}
+
+.feedback a:hover {
+  filter: drop-shadow(0 0 10px #29b3e6);
 }
