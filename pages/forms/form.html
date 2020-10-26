@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,48 @@
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
     <title>Document</title>
 </head>
+
 <body>
     <form type="submit">
         <div class="fields">
-            <label for="username">User Name</label>
-            <input type="text" name="username" placeholder="username" required>
+            <!-- <label for="username">User Name</label> -->
+            <input type="text" id="username" name="username" placeholder="username" required>
         </div>
         <div class="fields">
-            <label for="email">email</label>
-            <input type="text" name="email" placeholder="email" required> 
+            <!-- <label for="email">email</label> -->
+            <input type="text" id="email" name="email" placeholder="email" required>
         </div>
         <div class="fields">
-            <label for="comments">Comment</label>
-            <input type="text" name="comments" placeholder="comments" required>
+            <!-- <label for="comments">Comment</label> -->
+            <input type="text" id="comments" name="comments" placeholder="comments" required>
         </div>
-        <div class="fields">
+        <div>
             <span>What is your overall opinion about this article?</span>
-            <input type="radio" name="positive">
-            <input type="radio" name="negative">
-            <input type="radio" name="neutral">
+            <ul>
+                <li>
+                    <input type="radio" id="positive" name="feedback">
+                    <label for="positive">Positive</label>
+                </li>
+                <li>
+                    <input type="radio" id="negative" name="feedback">
+                    <label for="negative">Negatiive</label>
+                </li>
+                <li>
+                    <input type="radio" id="neutral" name="feedback">
+                    <label for="neutral">Neutral</label>
+                </li>
+            </ul>
         </div>
-        <div class="fields"> 
-            <label for="subscribe">I want to subscribe to the newsletter</label>
-            <input type="checkbox" name="subscribe">
+        <div class="fields">
+            <div>
+                <label for="subscribe">I want to subscribe to the newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
         </div>
         <div class="fields">
             <button type="submit">send</button>
-        </div>   
+        </div>
     </form>
 </body>
+
 </html>
