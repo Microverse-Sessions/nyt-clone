@@ -1,14 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
 body {
-    margin-top: 10%;
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: #5e01c5;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: 'Avro';
     display: flex;
     flex-direction: column;
+}
+
+form {
+    background-color: lightgray;
+    padding: 11%;
+    /* border-radius: 3%; */
+    box-shadow: 0 0 20px 0 #115e01c5, 0 5px 5px 0 #115e01c5;
 }
 
 .fields {
     margin-bottom: 25px;
     display: flex;
     flex-direction: column;
+}
+
+.fields input {
+    background: #eeeeee;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    font-size: 13px;
 }
